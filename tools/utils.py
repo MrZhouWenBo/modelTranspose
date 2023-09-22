@@ -20,6 +20,9 @@ def softmax(x):
 
 
 def bbox_iou(box1, box2, x1y1x2y2=True):
+    '''
+        box的数据 [x1y1  x2y2]   or [ xy wh]
+    '''
     
     # print('iou box1:', box1)
     # print('iou box2:', box2)
